@@ -1,0 +1,45 @@
+#sbar>img {
+    position: absolute;
+}
+
+#at-btn-atkit-toggle {
+    display: none ! important;
+}
+
+.at-hidden {
+    display: none ! important;
+}
+
+.at-visible {
+    display: inline-block ! important;
+}
+
+@media (max-width: 768px) {
+    #at-btn-atkit-toggle {
+        display: inline ! important;
+    }
+
+    #sbar {
+        height: initial ! important;
+        padding-bottom: 5px ! important;
+        background-size: contain ! important;
+    }
+
+    #sbarlogo {
+        display: none;
+    }
+
+    #at-collapse {
+        width: 50%;
+    }
+
+    .at-btn.fright {
+        margin: 2px ! important;
+    }
+}
+
+@media (min-width: 769px) {
+    #at-collapse {
+        display: inline ! important;
+    }
+}
