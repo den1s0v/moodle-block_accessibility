@@ -1,9 +1,41 @@
 (function () {
     var e = function () {
-        $lib = AtKit.lib(); AtKit.addLocalisationMap("en", {
+        $lib = AtKit.lib(); AtKit.addLocalisationMap("en0", {
             css_title: "Change Styles", css_changeColour: "Change colour settings", css_changeToolbar: "Change Toolbar colour", css_changeText: "Change text and link colours", css_changePage: "Change page style", css_changeATbar: "Change ATbar colour", css_changeBackground: "Background colour", css_set: "Set", css_black: "Black", css_white: "White", css_grey: "Grey", css_random: "Random", css_reset_defaults: "Reset to Defaults", css_change_linktext: "Change text and link colours",
             css_textcolour: "Text Colour:", css_colour_original: "Original", css_colour_red: "Red", css_colour_blue: "Blue", css_colour_green: "Green", css_colour_yellow: "Yellow", css_colour_orange: "Orange", css_linkColour: "Link Colour:", css_apply: "Apply", css_change_page: "Change Page Styles", css_black_white: "Black on White", css_white_black: "White on Black", css_yellow_black: "Yellow on Black", css_black_yellow: "Black on Yellow", css_white_grey: "White on Grey"
-        }); AtKit.addLocalisationMap("ar", {
+        });
+        AtKit.addLocalisationMap("en", {
+            css_title: "Изменение стилей",
+            css_changeColour: "Изменить настройки цвета",
+            css_changeToolbar: "Изменить цвет панели инструментов",
+            css_changeText: "Изменить цвет текста и ссылок",
+            css_changePage: "Изменить стиль страницы",
+            css_changeATbar: "Изменить цвет ATbar",
+            css_changeBackground: "Цвет фона",
+            css_set: "Применить",
+            css_black: "Чёрный",
+            css_white: "Белый",
+            css_grey: "Серый",
+            css_random: "Случайный",
+            css_reset_defaults: "Сбросить настройки по умолчанию",
+            css_change_linktext: "Изменить цвет текста и ссылок",
+            css_textcolour: "Цвет текста:",
+            css_colour_original: "Оригинальный",
+            css_colour_red: "Красный",
+            css_colour_blue: "Синий",
+            css_colour_green: "Зелёный",
+            css_colour_yellow: "Жёлтый",
+            css_colour_orange: "Оранжевый",
+            css_linkColour: "Цвет ссылки:",
+            css_apply: "Применить",
+            css_change_page: "Изменить стили страницы",
+            css_black_white: "Чёрный на белом",
+            css_white_black: "Белый на чёрном",
+            css_yellow_black: "Жёлтый на чёрном",
+            css_black_yellow: "Чёрный на жёлтом",
+            css_white_grey: "Белый на сером"
+        });
+        AtKit.addLocalisationMap("ar", {
             css_title: "&#1575;&#1604;&#1578;&#1581;&#1603;&#1605; &#1601;&#1610; &#1605;&#1592;&#1607;&#1585; &#1575;&#1604;&#1589;&#1601;&#1581;&#1577;  &#1575;&#1604;&#1581;&#1575;&#1604;&#1610;&#1577;",
             css_changeColour: "&#1573;&#1593;&#1583;&#1575;&#1583;&#1575;&#1578; &#1578;&#1594;&#1610;&#1610;&#1585; &#1575;&#1604;&#1571;&#1604;&#1608;&#1575;&#1606;", css_changeToolbar: "&#1578;&#1594;&#1610;&#1610;&#1585; &#1604;&#1608;&#1606; &#1588;&#1585;&#1610;&#1591; &#1575;&#1604;&#1571;&#1583;&#1608;&#1575;&#1578;", css_changeText: "&#1578;&#1594;&#1610;&#1610;&#1585; &#1571;&#1604;&#1608;&#1575;&#1606; &#1575;&#1604;&#1606;&#1589;&#1608;&#1589; &#1608;&#1575;&#1604;&#1585;&#1608;&#1575;&#1576;&#1591;",
             css_changePage: "&#1578;&#1594;&#1610;&#1610;&#1585; &#1606;&#1605;&#1591; &#1575;&#1604;&#1589;&#1601;&#1581;&#1577;", css_changeATbar: "&#1578;&#1594;&#1610;&#1610;&#1585; &#1604;&#1608;&#1606;  ATbar", css_changeBackground: "&#1604;&#1608;&#1606; &#1575;&#1604;&#1582;&#1604;&#1601;&#1610;&#1577;", css_set: "&#1578;&#1591;&#1576;&#1610;&#1602;", css_black: "&#1571;&#1587;&#1608;&#1583;", css_white: "&#1571;&#1576;&#1610;&#1590;", css_grey: "&#1585;&#1605;&#1575;&#1583;&#1610;", css_random: "&#1593;&#1588;&#1608;&#1575;&#1574;&#1610;",
@@ -54,7 +86,14 @@
 })();
 (function () {
     var e = function () {
-        $lib = AtKit.lib(); AtKit.addLocalisationMap("en", { dictionary_title: "Dictionary", dictionary_definition: "Dictionary definition for", dictionary_use: "To use the dictionary select a word on the page and click the dictionary button" }); AtKit.addLocalisationMap("ar", { dictionary_title: "&#1575;&#1604;&#1605;&#1593;&#1580;&#1605;", dictionary_definition: "&#1578;&#1593;&#1585;&#1610;&#1601; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605; &#1604;", dictionary_use: "&#1604;&#1575;&#1587;&#1578;&#1582;&#1583;&#1575;&#1605; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605; &#1581;&#1583;&#1583; &#1603;&#1604;&#1605;&#1577; &#1593;&#1604;&#1609; &#1575;&#1604;&#1589;&#1601;&#1581;&#1577; &#1579;&#1605; &#1575;&#1590;&#1594;&#1591; &#1586;&#1585; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605;" });
+        $lib = AtKit.lib();
+        AtKit.addLocalisationMap("en0", { dictionary_title: "Dictionary", dictionary_definition: "Dictionary definition for", dictionary_use: "To use the dictionary select a word on the page and click the dictionary button" });
+        AtKit.addLocalisationMap("en", {
+            dictionary_title: "Словарь",
+            dictionary_definition: "Словарное определение для",
+            dictionary_use: "Чтобы использовать словарь, выделите слово на странице и нажмите кнопку словаря"
+        });
+        AtKit.addLocalisationMap("ar", { dictionary_title: "&#1575;&#1604;&#1605;&#1593;&#1580;&#1605;", dictionary_definition: "&#1578;&#1593;&#1585;&#1610;&#1601; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605; &#1604;", dictionary_use: "&#1604;&#1575;&#1587;&#1578;&#1582;&#1583;&#1575;&#1605; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605; &#1581;&#1583;&#1583; &#1603;&#1604;&#1605;&#1577; &#1593;&#1604;&#1609; &#1575;&#1604;&#1589;&#1601;&#1581;&#1577; &#1579;&#1605; &#1575;&#1590;&#1594;&#1591; &#1586;&#1585; &#1575;&#1604;&#1605;&#1593;&#1580;&#1605;" });
         AtKit.addFn("getSelectedText", function (c) { var b = ""; document.selection && "Control" != document.selection.type ? b = document.selection.createRange().text : window.getSelection ? b = window.getSelection().toString() : document.getSelection && (b = document.getSelection()); return !0 === c ? String(b).replace(/([\s]+)/ig, "") : String(b) }); AtKit.addButton("dictionary", AtKit.localisation("dictionary_title"), AtKit.getPluginURL() + "images/book_open.png", function () {
             var c = AtKit.call("getSelectedText"), b = AtKit.get("DictionaryText"); "" ==
                 c && "" != b && (c = b); c = eval('"' + c.split(" ").slice(0, 1) + '";'); "" != c ? ($lib("#at-lnk-dictionary").children("img").attr("src", AtKit.getPluginURL() + "images/loading.gif"), $lib.getJSON("https://spell.services.atbar.org/dictionary/xmlhttp/remote.php?titles=" + encodeURI(c.toLowerCase()) + "&v=2&l=" + AtKit.getLanguage() + "&callback=?", function (b) {
@@ -69,7 +108,15 @@
 })();
 (function () {
     var e = function () {
-        $lib = AtKit.lib(); AtKit.addLocalisationMap("en", { fonts_dialogTitle: "Page font settings", fonts_fontFace: "Font Face", fonts_lineSpacing: "Line Spacing", fonts_apply: "Apply" }); AtKit.addLocalisationMap("ar", {
+        $lib = AtKit.lib();
+        AtKit.addLocalisationMap("en0", { fonts_dialogTitle: "Page font settings", fonts_fontFace: "Font Face", fonts_lineSpacing: "Line Spacing", fonts_apply: "Apply" });
+        AtKit.addLocalisationMap("en", {
+            fonts_dialogTitle: "Настройки шрифта страницы",
+            fonts_fontFace: "Шрифт",
+            fonts_lineSpacing: "Межстрочный интервал",
+            fonts_apply: "Применить"
+        });
+        AtKit.addLocalisationMap("ar", {
             fonts_dialogTitle: "&#1575;&#1604;&#1578;&#1581;&#1603;&#1605; &#1601;&#1610; &#1606;&#1608;&#1593; &#1575;&#1604;&#1582;&#1591;", fonts_fontFace: "&#1606;&#1608;&#1593; &#1575;&#1604;&#1582;&#1591;", fonts_lineSpacing: "&#1575;&#1604;&#1605;&#1587;&#1575;&#1601;&#1575;&#1578; &#1576;&#1610;&#1606; &#1575;&#1604;&#1571;&#1587;&#1591;&#1585;",
             fonts_apply: "&#1578;&#1591;&#1576;&#1610;&#1602;"
         }); var c = {
@@ -85,17 +132,21 @@
         new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("fonts", e) })) : AtKit.registerPlugin("fonts", e)
 })(); (function () {
     var e = function () {
-        AtKit.addLocalisationMap("en", { ftw_title: "Create a fix the web report about this page (opens in a popup window)" }); AtKit.addButton("ftw", AtKit.localisation("ftw_title"), AtKit.getPluginURL() + "images/FTW.png", function () { loc = window.location.toString(); loc = loc.replace(window.location.hash.toString(), ""); var c = window.open("https://www.gov.uk/reporting-accessibility-problem-public-sector-website"); window.focus && c.focus(); c.document.all["edit-field-report-url"].focus() }, null,
+        AtKit.addLocalisationMap("en0", { ftw_title: "Create a fix the web report about this page (opens in a popup window)" });
+        AtKit.addLocalisationMap("en", {
+            ftw_title: "Сообщить о проблеме доступности на этой странице (открывается в новом окне)"
+        });
+        AtKit.addButton("ftw", AtKit.localisation("ftw_title"), AtKit.getPluginURL() + "images/FTW.png", function () { loc = window.location.toString(); loc = loc.replace(window.location.hash.toString(), ""); var c = window.open("https://www.gov.uk/reporting-accessibility-problem-public-sector-website"); window.focus && c.focus(); c.document.all["edit-field-report-url"].focus() }, null,
             null)
     }; "undefined" == typeof window.AtKit ? (window.AtKitLoaded = function () { var c = null; this.subscribe = function (b) { c = b }; this.fire = function (b, d) { null != c && c(b, d) } }, window.AtKitLoaded = new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("ftw", e) })) : AtKit.registerPlugin("ftw", e)
 })(); (function () {
     var e = function () {
-        $lib = AtKit.lib(); AtKit.addLocalisationMap("en", {
+        $lib = AtKit.lib(); AtKit.addLocalisationMap("en0", {
             tts_title: "Text to Speech", tts_ssapi_select_text: "Select some text and press the TTS button to read it.", tts_options: "Text to Speech Options", tts_converting: "Text to Speech conversion is taking place.", tts_timeremaining: "Time Remaining:", tts_pleasewait: "Please wait...", tts_playpause: "Play / Pause", tts_rewind: "Rewind", tts_stop: "Stop & Close TTS", tts_error: "Error", tts_overloaded: "The server is currently over capacity for text to speech conversions. Please try again later.",
             tts_problem: "Something went wrong while we were converting this page to speech. Please try again shortly.", tts_servererror: "An error occurred on the server. Please try again later.", tts_seconds: "seconds", tts_explain: "To use the text to speech feature with selected text, please first select the text on this page that you would like to convert. After you have done this, click the Text to Speech button, and select the 'selected text' option.", tts_select_voice: "Highlight text and select a voice", tts_male: "Male",
             tts_female: "Female"
         });
-        AtKit.addLocalisationMap("ru", {
+        AtKit.addLocalisationMap("en", {
             tts_title: "Текст в речь",
             tts_ssapi_select_text: "Выделите текст и нажмите кнопку TTS, чтобы прочитать его.",
             tts_options: "Настройки текста в речь",
@@ -109,7 +160,7 @@
             tts_overloaded: "Сервер перегружен запросами на преобразование текста в речь. Пожалуйста, попробуйте позже.",
             tts_problem: "Что-то пошло не так при преобразовании этой страницы в речь. Пожалуйста, попробуйте ещё раз через некоторое время.",
             tts_servererror: "Произошла ошибка на сервере. Пожалуйста, попробуйте позже.",
-            tts_seconds: "секунд",
+            tts_seconds: "секунд(ы)",
             tts_explain: "Чтобы использовать функцию преобразования текста в речь для выделенного текста, сначала выделите текст на этой странице, который вы хотите преобразовать. После этого нажмите кнопку 'Текст в речь' и выберите опцию 'выделенный текст'.",
             tts_select_voice: "Выделите текст и выберите голос",
             tts_male: "Мужской",
@@ -198,7 +249,17 @@
     }, window.AtKitLoaded = new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("insipio-tts", e) })) : AtKit.registerPlugin("insipio-tts", e)
 })(); (function () {
     var e = function () {
-        $lib = AtKit.lib(); var c = 0, b = 0, d = 0, g = 0, f = 0; AtKit.addLocalisationMap("en", { overlay_title: "Colour overlay", overlay_title_yellow: "yellow", overlay_title_red: "red", overlay_title_blue: "blue", overlay_title_green: "green", overlay_remove: "Remove overlay" }); AtKit.addLocalisationMap("ar", {
+        $lib = AtKit.lib(); var c = 0, b = 0, d = 0, g = 0, f = 0;
+        AtKit.addLocalisationMap("en0", { overlay_title: "Colour overlay", overlay_title_yellow: "yellow", overlay_title_red: "red", overlay_title_blue: "blue", overlay_title_green: "green", overlay_remove: "Remove overlay" });
+        AtKit.addLocalisationMap("en", {
+            overlay_title: "Цветовое наложение",
+            overlay_title_yellow: "жёлтый",
+            overlay_title_red: "красный",
+            overlay_title_blue: "синий",
+            overlay_title_green: "зелёный",
+            overlay_remove: "Убрать наложение"
+        });
+        AtKit.addLocalisationMap("ar", {
             overlay_title: "&#1604;&#1608;&#1606;&#160;&#1575;&#1604;&#1588;&#1575;&#1588;&#1577;", overlay_title_yellow: "&#1571;&#1589;&#1601;&#1585;", overlay_title_red: "&#1571;&#1581;&#1605;&#1585;", overlay_title_blue: "&#1571;&#1586;&#1585;&#1602;",
             overlay_title_green: "&#1571;&#1582;&#1590;&#1585;", overlay_remove: "Remove overlay"
         }); AtKit.addFn("addOverlay", function (b) { b = '<div class="at-overlay" style="background-color:#' + b.colour + '; opacity:0.4; position:absolute; top:0; left:0; height:100%; width:100%; z-index:2147483640; opacity:0.3; filter: alpha(opacity = 30); pointer-events: none; position:fixed"></div>'; $lib("body").prepend(b); AtKit.call("addOvelayClose", {}) }); AtKit.addFn("removeOverlay", function () {
@@ -221,7 +282,13 @@
     }, window.AtKitLoaded = new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("overlay", e) })) : AtKit.registerPlugin("overlay", e)
 })(); (function () {
     var e = function () {
-        $lib = AtKit.lib(); AtKit.addLocalisationMap("en", { resize_up: "Increase Font Size", resize_down: "Decrease Font Size" }); AtKit.addLocalisationMap("ar", { resize_up: "&#1578;&#1603;&#1576;&#1610;&#1585; &#1581;&#1580;&#1605; &#1575;&#1604;&#1582;&#1591;", resize_down: "&#1578;&#1589;&#1594;&#1610;&#1585; &#1581;&#1580;&#1605; &#1575;&#1604;&#1582;&#1591;" }); AtKit.addFn("resizeText", function (c) {
+        $lib = AtKit.lib();
+        AtKit.addLocalisationMap("en0", { resize_up: "Increase Font Size", resize_down: "Decrease Font Size" });
+        AtKit.addLocalisationMap("en", {
+            resize_up: "Увеличить размер шрифта",
+            resize_down: "Уменьшить размер шрифта"
+        });
+        AtKit.addLocalisationMap("ar", { resize_up: "&#1578;&#1603;&#1576;&#1610;&#1585; &#1581;&#1580;&#1605; &#1575;&#1604;&#1582;&#1591;", resize_down: "&#1578;&#1589;&#1594;&#1610;&#1585; &#1581;&#1580;&#1605; &#1575;&#1604;&#1582;&#1591;" }); AtKit.addFn("resizeText", function (c) {
             for (var b = AtKit.getHtmlTags(), d = 0; d < b.length; d++)$lib(b[d]).each(function (b, d) {
                 if (!$lib(d).is("#sbar") &&
                     !$lib(d).is("#sbar *") && !$lib(d).is("body > .tooltip") && !$lib(d).is("body > .tooltip *")) { var h = $lib(d).css("font-size"), h = parseFloat(h), e = parseFloat(c); newVal = parseFloat(h + e) } else newVal = $lib(d).css("font-size"); $lib(d).css("font-size", newVal + "px")
@@ -236,7 +303,21 @@
     }, window.AtKitLoaded = new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("shortcutkeys", e) })) : AtKit.registerPlugin("shortcutkeys", e)
 })(); (function () {
     var e = function () {
-        $lib = AtKit.lib(); $lib.sb_spellVersion = "3.9"; var c = null, b = null, d = null, g = 0, f = !1, h = !1; AtKit.addLocalisationMap("en", { spell_title: "Start Spellchecker", spell_complete: "Spell checking complete!", spell_mistake: "Spelling Mistake", spell_suggestions: "Spelling Suggestions", spell_ignore: "Ignore", spell_replace: "Replace", spell_record: "Send anonymous usage data?", spell_record_data: "Data to be sent: ", spell_record_allow: "Allow", spell_record_disallow: "Disallow" }); AtKit.addLocalisationMap("ar",
+        $lib = AtKit.lib(); $lib.sb_spellVersion = "3.9"; var c = null, b = null, d = null, g = 0, f = !1, h = !1;
+        AtKit.addLocalisationMap("en0", { spell_title: "Start Spellchecker", spell_complete: "Spell checking complete!", spell_mistake: "Spelling Mistake", spell_suggestions: "Spelling Suggestions", spell_ignore: "Ignore", spell_replace: "Replace", spell_record: "Send anonymous usage data?", spell_record_data: "Data to be sent: ", spell_record_allow: "Allow", spell_record_disallow: "Disallow" });
+        AtKit.addLocalisationMap("en", {
+            spell_title: "Запустить проверку орфографии",
+            spell_complete: "Проверка орфографии завершена!",
+            spell_mistake: "Орфографическая ошибка",
+            spell_suggestions: "Предложения по исправлению",
+            spell_ignore: "Игнорировать",
+            spell_replace: "Заменить",
+            spell_record: "Отправить анонимные данные об использовании?",
+            spell_record_data: "Данные для отправки: ",
+            spell_record_allow: "Разрешить",
+            spell_record_disallow: "Запретить"
+        });
+        AtKit.addLocalisationMap("ar",
             {
                 spell_title: "&#1575;&#1604;&#1578;&#1583;&#1602;&#1610;&#1602; &#1575;&#1604;&#1575;&#1605;&#1604;&#1575;&#1574;&#1610;", spell_complete: "&#1578;&#1605; &#1575;&#1604;&#1575;&#1606;&#1578;&#1607;&#1575;&#1569; &#1605;&#1606; &#1575;&#1604;&#1578;&#1583;&#1602;&#1610;&#1602; &#1575;&#1604;&#1573;&#1605;&#1604;&#1575;&#1574;&#1610;", spell_mistake: "&#1582;&#1591;&#1571; &#1573;&#1605;&#1604;&#1575;&#1574;&#1610;", spell_suggestions: "&#1575;&#1602;&#1578;&#1585;&#1575;&#1581;&#1575;&#1578; &#1604;&#1578;&#1589;&#1581;&#1610;&#1581; &#1575;&#1604;&#1582;&#1591;&#1571; &#1575;&#1604;&#1573;&#1605;&#1604;&#1575;&#1574;&#1610;",
                 spell_ignore: "&#1578;&#1580;&#1575;&#1607;&#1604;", spell_replace: "&#1575;&#1587;&#1578;&#1576;&#1583;&#1575;&#1604;", spell_record: "&#1571;&#1585;&#1587;&#1575;&#1604; &#1587;&#1580;&#1604; &#1575;&#1604;&#1575;&#1587;&#1578;&#1582;&#1583;&#1575;&#1605; &#1583;&#1608;&#1606; &#1603;&#1588;&#1601; &#1607;&#1608;&#1610;&#1577; &#1575;&#1604;&#1605;&#1587;&#1578;&#1582;&#1583;&#1605;", spell_record_data: "&#1575;&#1604;&#1605;&#1581;&#1578;&#1608;&#1609; &#1575;&#1604;&#1582;&#1575;&#1589; &#1576;&#1604;&#1571;&#1585;&#1587;&#1575;&#1604; : ",
@@ -326,7 +407,14 @@
     }; "undefined" == typeof window.AtKit ? (window.AtKitLoaded = function () { var c = null; this.subscribe = function (b) { c = b }; this.fire = function (b, d) { null != c && c(b, d) } }, window.AtKitLoaded = new AtKitLoaded, window.AtKitLoaded.subscribe(function () { AtKit.registerPlugin("tooltip", e) })) : AtKit.registerPlugin("tooltip", e)
 })(); (function () {
     var e = function () {
-        $lib = AtKit.lib(); var c; AtKit.addLocalisationMap("en", { wp_title: "Word Prediction", wp_ignore: "Ignore", wp_instruct: "Keystrokes: esc to close, Ctrl + Alt + (1, 2, 3 etc)" }); AtKit.addLocalisationMap("ar", { wp_title: "&#1578;&#1588;&#1594;&#1610;&#1604; &#1605;&#1602;&#1578;&#1585;&#1581; &#1575;&#1604;&#1603;&#1604;&#1605;&#1575;&#1578;", wp_ignore: "&#1578;&#1580;&#1575;&#1607;&#1604;", wp_instruct: "&#1605;&#1601;&#1575;&#1578;&#1610;&#1581;: Esc &#1604;&#1604;&#1582;&#1585;&#1608;&#1580;&#1548; Ctrl+Alt+(1,2,3...)" });
+        $lib = AtKit.lib(); var c;
+        AtKit.addLocalisationMap("en0", { wp_title: "Word Prediction", wp_ignore: "Ignore", wp_instruct: "Keystrokes: esc to close, Ctrl + Alt + (1, 2, 3 etc)" });
+        AtKit.addLocalisationMap("en", {
+            wp_title: "Предсказание слов",
+            wp_ignore: "Игнорировать",
+            wp_instruct: "Клавиши: Esc для закрытия, Ctrl + Alt + (1, 2, 3 и т.д.)"
+        });
+        AtKit.addLocalisationMap("ar", { wp_title: "&#1578;&#1588;&#1594;&#1610;&#1604; &#1605;&#1602;&#1578;&#1585;&#1581; &#1575;&#1604;&#1603;&#1604;&#1605;&#1575;&#1578;", wp_ignore: "&#1578;&#1580;&#1575;&#1607;&#1604;", wp_instruct: "&#1605;&#1601;&#1575;&#1578;&#1610;&#1581;: Esc &#1604;&#1604;&#1582;&#1585;&#1608;&#1580;&#1548; Ctrl+Alt+(1,2,3...)" });
         AtKit.set("WordPrediction_TextSelected", null); $lib('input[type="text"], textarea').bind("focus", function () { AtKit.set("WordPrediction_TextSelected", $lib(this)) }); AtKit.addFn("getCaretPos", function (b) { var b = b[0], d; document.selection && document.selection.createRange ? d = document.selection.createRange().getBookmark().charCodeAt(2) - 2 : b.setSelectionRange && (d = b.selectionStart); return d }); AtKit.addFn("setCaretPos", function (b) {
             var d = b.input[0]; null !== d && (d.createTextRange ? (d = d.createTextRange(), d.move("character",
                 b.position), d.select()) : d.selectionStart ? (d.focus(), d.setSelectionRange(b.position, b.position)) : d.focus())
