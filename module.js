@@ -5,7 +5,7 @@ M.block_accessibility = {
 		module.js script updates user settings and fetch updated stylesheet over AJAX for each action
 	*/
 
-	ATBAR_SRC: 'https://core.atbar.org/atbar/en/latest/atbar.min.js',
+	ATBAR_SRC: '/blocks/accessibility/js/atbar2.min.js',
 
 	// font sizes in %, this is defined in changesize.php as well
 	DEFAULT_FONTSIZE: 100,
